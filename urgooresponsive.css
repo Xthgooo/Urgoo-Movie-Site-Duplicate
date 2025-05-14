@@ -1,0 +1,275 @@
+@media screen and (max-width: 375px) {
+  .header {
+    width: 100vw;
+    height: 59px;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .header > div:nth-child(1) img {
+    width: 35px;
+    height: 39px;
+  }
+  .header > div:nth-child(2) {
+    display: none;
+  }
+  .header > div:nth-child(3) {
+    display: block;
+  }
+  .header > div:nth-child(3) img {
+    width: 24px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+  .hero {
+    display: none;
+  }
+  .contents {
+    top: 67px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .contenttitle {
+    gap: 11px;
+  }
+  .contenttitle p {
+    height: 21px;
+    font-size: 18px;
+  }
+  .rightnowondisplay {
+    padding-bottom: 30px;
+    gap: 23px;
+  }
+  .ondisplaymovies {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 11px;
+  }
+  .ondisplaymovies > div {
+    width: 162px;
+    height: 243px;
+    border-radius: 10px;
+  }
+  .overlay > div:nth-child(1) {
+    font-size: 10px;
+    height: 30px;
+  }
+  .overlay > div:nth-child(2) {
+    font-size: 10px;
+    height: 30px;
+  }
+  .width100 {
+    width: 80%;
+  }
+  .zahialahbutton:hover {
+    outline: 3px solid rgb(255, 255, 255, 0.6);
+  }
+  .popcorn {
+    gap: 31px;
+    padding-bottom: 50px;
+  }
+
+  .popcorn > div:nth-child(2) {
+    height: fit-content;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .popcorn > div:nth-child(2)img {
+    width: 324px;
+    height: 172px;
+  }
+  .popcorn > div:nth-child(2) > div {
+    width: 100%;
+    gap: 32px;
+    align-items: center;
+  }
+  .popcorntext {
+    width: 100%;
+    height: 51px;
+    gap: 8px;
+    text-align: center;
+  }
+  .popcorntext p {
+    font-size: 16px;
+  }
+  .popcorntext h1 {
+    font-size: 20px;
+  }
+
+  .zahialahbutton {
+    height: 51px;
+  }
+  .popcornbuttonw {
+    width: 236px;
+  }
+  .comingsoon {
+    gap: 32px;
+  }
+  .moviedescription {
+    display: none;
+  }
+  .comingsoon > div:nth-child(2) {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    padding-bottom: 55px;
+  }
+
+  .moviescroll {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }
+  .scrollbackground {
+    width: 100%;
+    height: fit-content;
+    background-color: transparent;
+    border: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 11px;
+    padding: 0px;
+  }
+  .scrollbackground > div:nth-child(4) {
+    display: none;
+  }
+  .scrollbackground > div {
+    width: 162px;
+    height: 243px;
+  }
+  .scrollbackground > div > img:hover {
+    scale: 1;
+  }
+  .halls {
+    gap: 27px;
+  }
+  .halls > div:nth-child(2) {
+    gap: 43px;
+    padding-bottom: 71px;
+  }
+  .hall {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    justify-content: center;
+  }
+  .hallcontent {
+    display: none;
+  }
+  .hall img {
+    width: 335px;
+    height: 186px;
+    object-fit: cover;
+  }
+  .hall > div {
+    width: 100%;
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .hallsbuttonw {
+    width: 100%;
+  }
+  .hall:nth-of-type(2) {
+    flex-direction: column-reverse;
+  }
+  .footer {
+    height: 1135px;
+    margin-top: 71px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footercontent {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 54px;
+    padding-bottom: 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 16.73px;
+  }
+  .footercontent > div:nth-child(1) {
+    width: 181px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 11.83px;
+  }
+  .footercontent > div:nth-child(1) > img:first-child {
+    width: 70px;
+    height: 78px;
+  }
+  .footercontent > div:nth-child(1) > img:last-child {
+    height: 97px;
+  }
+  .footercontent > div:nth-child(2) {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+  }
+  .footermenu {
+    max-width: 172px;
+  }
+  .footermenu:last-of-type {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    justify-content: center;
+  }
+  .footermenu:last-of-type > div {
+    justify-content: center;
+    flex-direction: row;
+    gap: 32px;
+  }
+  .footermenu img {
+    width: 120px;
+    height: 35px;
+  }
+  .footerend {
+    width: 100vw;
+    height: 141px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 104px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: start;
+    color: #959595;
+  }
+  .footerend img {
+    display: block;
+    width: 100%;
+  }
+  .footerend > div:nth-child(2) {
+    display: none;
+  }
+  .footerend > div:nth-child(3) {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+  }
+}
